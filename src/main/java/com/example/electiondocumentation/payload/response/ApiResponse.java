@@ -19,7 +19,7 @@ public class ApiResponse {
     /**
      * Constructor of the ApiResponse.
      *
-     * Initializing a HashMap that stores the responses in order of adding.
+     * Initializing a LinkedHashMap that stores the responses in order of adding.
      * */
     public ApiResponse() {
         this.response = new LinkedHashMap<>();

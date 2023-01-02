@@ -1,0 +1,43 @@
+package com.example.electiondocumentation.payload.response;
+
+/**
+ * This enum contains all section titles of the api responses.
+ *
+ * @version 1.0
+ */
+public enum ResponseTitle {
+
+    EMAIL,
+    ELECTION_ID,
+    ELECTION_META,
+    ELECTION_TITLE,
+    ELECTION_DESCRIPTION,
+    ELECTION_START,
+    ELECTION_END,
+    ELECTION_THRESHOLD,
+    ELECTION_KEY,
+    ELECTION_FINGERPRINT,
+    ELECTION_STATE,
+    AUTHORITY,
+    TRUSTEE_SINGLE,
+    TRUSTEE_MULTIPLE,
+    TRUSTEE_ID,
+    QUESTION_SECTION,
+    QUESTION_TEXT,
+    QUESTION_OPTIONS,
+    QUESTION_MIN,
+    QUESTION_MAX,
+    VOTERS,
+    TRACKING_CODE,
+    TRACKING_CODE_LAST,
+    RESULT,
+    KEY_PUBLIC,
+    KEY_TYPE,
+    KEY_BACKUPS,
+    BALLOT_SPOILED_ENCRYPTED_QUESTIONS,
+    BALLOTS_SPOILED_PARTIAL_DECRYPTED,
+    TALLY_PARTIAL_DECRYPTED,
+    TALLY_ENCRYPTED
+
+
+}
